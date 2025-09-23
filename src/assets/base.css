@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* rest  */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    background: #f3f3f3;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5 {
+    line-height: 1.1 !important;
+}
+
+p {
+    line-height: 1.4 !important;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/* end rest  */
+
+
+
+/* lenis  */
+html.lenis, html.lenis body {
+    height: auto;
+}
+  
+  .lenis.lenis-smooth {
+      scroll-behavior: auto !important;
+    }
+    
+    .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+    }
+    
+    .lenis.lenis-stopped {
+        overflow: hidden;
+    }
+    
+    .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+    }
+/* end lenis  */
+
+
+/* navbar  */
+.navbar .intro_text {
+    opacity: 0;
+}
+
+
+/* cards section  */
+.cards_section .title {
+    opacity: 0;
+    position: relative;
+    top: 2.5em;
+    transition: .225s ease-in-out;
+}
+
+.cards_section .card_img img{
+    transform-origin: 50% 50%;
+}
+
+
+/* about section  */
+.about_section .img-container img{
+    transform-origin: 50% 50%;
+}
+
+.about_section .animated-text {
+    opacity: 0;
+    padding-left: 3em;
+}
+
+.about_section .cliped {
+  transform-origin: top top;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition-timing-function: cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+/* donate section  */
+.donate_section .animated-card {
+    opacity: 0;
+    position: relative;
+    top: 2.5em;
+    transition: .225s ease-in-out;
+}
+
+
+/* pads section  */
+
+.pads .pad {
+    transition: .13s ease-in-out; 
+    
+}
+.pads .pad_img img{
+    transform-origin: 50% 50%;
+}
+.pads details[open] summary ~ * {
+  animation: open 0.5s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    padding-top: 2em;
+  }
+  100% {
+    opacity: 1;
+    padding-top: 0em;
+  }
+}
+.pads details summary::-webkit-details-marker {
+  display: none;
+}
+
+.pads details summary {
+  width: 100%;
+  border-top: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+.pads details summary:after {
+  content: "+";
+  color: black;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+.pads details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+.pads details summary {
+  outline: 0;
+}
+
+/* signature  */
+#signature-svg {
+    width: 100%;
+    height: auto;
+  }
