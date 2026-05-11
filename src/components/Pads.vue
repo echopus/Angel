@@ -3,7 +3,7 @@
         <div class="flex flex-col gap-10 md:gap-16 size-full lg:hidden">
         <div class="h-full  w-full flex flex-col  shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[100%] h-[350px] pad_img  img-holder rounded-tr-3xl rounded-tl-3xl overflow-hidden">
-                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_1.jpg" alt="">
+                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_1.webp" alt="">
             </div>
             <div class="relative flex flex-col h-full px-4 pt-8 pb-8 content ">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -top-12 left-4  size-24 place-content-center ">
@@ -22,7 +22,7 @@
         </div>
         <div class="h-full  w-full flex flex-col  shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[100%] h-[350px] pad_img  img-holder rounded-tr-3xl rounded-tl-3xl overflow-hidden">
-                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_2.jpg" alt="">
+                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_2.webp" alt="">
             </div>
             <div class="relative flex flex-col h-full px-4 pt-8 pb-8 content ">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -top-12 left-4  size-24 place-content-center ">
@@ -41,7 +41,7 @@
         </div>
         <div class="h-full  w-full flex flex-col  shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[100%] h-[350px] pad_img  img-holder rounded-tr-3xl rounded-tl-3xl overflow-hidden">
-                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_3.jpg" alt="">
+                <img loading="lazy" class="object-cover cursor-pointer w-full h-[150%]" src="../assets/images/pic_3.webp" alt="">
             </div>
             <div class="relative flex flex-col h-full px-4 pt-8 pb-8 content ">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -top-12 left-4  size-24 place-content-center ">
@@ -62,7 +62,7 @@
         
         <div @click="open('pad-1')" id="pad-1" class="h-full hidden lg:flex  w-[15%] shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[100%]  h-full img-holder pad_img  rounded-3xl overflow-hidden">
-                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_1.jpg" alt="">
+                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_1.webp" alt="">
             </div>
             <div class="w-[65%] h-full content hidden flex-col relative content pt-14 pb-8 px-4 pl-14">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -left-12 size-24 place-content-center ">
@@ -82,7 +82,7 @@
         
         <div @click="open('pad-2')" id="pad-2" class="h-full  hidden lg:flex w-[70%] shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[40%] h-full img-holder  rounded-3xl pad_img overflow-hidden rounded-tr-none rounded-br-none">
-                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_2.jpg" alt="">
+                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_2.webp" alt="">
             </div>
             <div  class="w-[65%] relative h-full content flex flex-col pt-14 pb-4 px-4 pl-14">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -left-12 size-24 place-content-center ">
@@ -102,7 +102,7 @@
         
         <div @click="open('pad-3')" id="pad-3" class="h-full  hidden lg:flex w-[15%] shadow-2xl bg-[#f5f5f5]  pad rounded-3xl">
             <div class="w-[100%] h-full img-holder rounded-3xl overflow-hidden pad_img">
-                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_3.jpg" alt="">
+                <img loading="lazy" class="object-cover w-full cursor-pointer h-[125%]" src="../assets/images/pic_3.webp" alt="">
             </div>
             <div class="w-[65%] h-full content hidden flex-col relative content pt-14 pb-4 px-4 pl-14">
                 <div class="absolute grid border-[14px] border-[#f5f5f5] p-4 bg-blue-500 rounded-full -left-12 size-24 place-content-center ">

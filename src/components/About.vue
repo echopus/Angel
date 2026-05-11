@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col h-full gap-10 lg:flex-row parent about_section">
         <div class="img-container h-full overflow-hidden lg:w-[50%] rounded-xl">
-            <img loading="lazy" class="object-cover w-full h-full lg:h-[550px] cliped founder-img rounded-xl" src="../assets/images/main_1.jpeg" alt="">
+            <img loading="lazy" class="object-cover w-full h-full lg:h-[550px] cliped founder-img rounded-xl" src="../assets/images/main_1.webp" alt="">
         </div>
         <div class="pt-10 lg:w-1/2">
             <h3 class="mb-2 text-6xl text-white animated-text">I'M ALL IN</h3>

@@ -21,7 +21,7 @@
             <p class="flex items-start gap-1 pt-2 title_p"><Dot/><span>Hurricane Recovery & Infrastructure: Pushing for faster federal response to hurricanes and investing in resilient infrastructure to protect homes and businesses from future disasters.</span></p>
           </div>
           <div class="min-[1200px]:w-[40%]  h-[450px] md:h-[650px] min-[1200px]:h-[450px] vid relative z-[1] rounded-xl">
-            <img loading="lazy" class="object-cover rounded-xl size-full" src="../assets/images/main_2.jpeg" alt="">
+            <img loading="lazy" class="object-cover rounded-xl size-full" src="../assets/images/main_2.webp" alt="">
           </div>
       </div>
       
