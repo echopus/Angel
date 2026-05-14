@@ -3,7 +3,7 @@
         <div class="lg:flex lg:gap-4 lg:pr-4">
         <Sider class="hidden lg:block w-[5%]" />
         <div  class="w-full lg:w-[95%] mt-[80px]">
-    <div class="relative container pt-12 pb-8 mt-3 z-[1] mb-6 overflow-hidden lg:rounded-3xl bg-dark-v2">
+    <div class="relative w-full px-8 pt-12 pb-8 mt-3 lg:ml-2 z-[1] mb-6 overflow-hidden lg:rounded-3xl bg-dark-v2">
       <!-- @mousemove="moveBlob" @mouseleave="outBlob"  -->
       <span class="blur"></span>
       <!-- <span id="blob"></span> -->
