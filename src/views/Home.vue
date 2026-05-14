@@ -88,6 +88,7 @@ import Pads from "@/components/Pads.vue";
 import Tweets from '@/components/Tweets.vue';
 
 
+
 const animatedText = () => {
   gsap.to(".title_p" , {
       opacity: 1,
