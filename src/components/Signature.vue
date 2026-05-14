@@ -61,29 +61,34 @@ import { onMounted } from 'vue';
 
 
 onMounted(() => {
-  const svgElement = document.getElementById('signature-svg');
-  const paths = svgElement.querySelectorAll('path');
-  
-  paths.forEach((path, i) => {
-    const length = path.getTotalLength();
-    gsap.set(path, {
-      strokeDasharray: length,
-      strokeDashoffset: length
-    });
+  requestAnimationFrame(() => {
+    const svgElement = document.getElementById('signature-svg')
+    const paths = [...svgElement.querySelectorAll('path')]
+    const lengths = paths.map((path) => path.getTotalLength())
 
-    gsap.to(path, {
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".signature",
-        start: 'top 80%',
-        end: 'bottom 40%',
-        scrub: true
-      },
-      fill: "#000",
-      duration: 1.5,
-      delay: i * 0.1
-    });
-  });
-});
+    requestAnimationFrame(() => {
+      paths.forEach((path, i) => {
+        const length = lengths[i]
+        gsap.set(path, {
+          strokeDasharray: length,
+          strokeDashoffset: length,
+        })
+
+        gsap.to(path, {
+          strokeDashoffset: 0,
+          scrollTrigger: {
+            trigger: '.signature',
+            start: 'top 80%',
+            end: 'bottom 40%',
+            scrub: true,
+          },
+          fill: '#000',
+          duration: 1.5,
+          delay: i * 0.1,
+        })
+      })
+    })
+  })
+})
 </script>
 

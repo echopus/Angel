@@ -10,7 +10,7 @@
       
       <div class="flex flex-col gap-14 min-[1200px]:flex-row">
             <div class="min-[1200px]:w-[60%]">
-            <h3 class="text-[2.25rem] md:text-[3rem] min-[1200px]:text-[4rem] mb-12 leading-none title_p">
+            <h3 class="text-[2.25rem] md:text-[3rem] min-[1200px]:text-[4rem] mb-12 leading-none">
                 The official Campaign <br> website for <span class="text-gray">Angel Rivera</span> <span>Candidate For Congress</span>
             </h3>
             <p class="flex items-start gap-1 mb-2 text-3xl title_p"><span>FLORIDA FIRST POLICY</span></p>
@@ -21,7 +21,7 @@
             <p class="flex items-start gap-1 pt-2 title_p"><Dot/><span>Hurricane Recovery & Infrastructure: Pushing for faster federal response to hurricanes and investing in resilient infrastructure to protect homes and businesses from future disasters.</span></p>
           </div>
           <div class="min-[1200px]:w-[40%]  h-[450px] md:h-[650px] min-[1200px]:h-[450px] vid relative z-[1] rounded-xl">
-            <img loading="lazy" class="object-cover rounded-xl size-full" src="../assets/images/main_2.webp" alt="">
+            <img fetchpriority="high" loading="eager" width="584" height="584" decoding="async" class="object-cover rounded-xl size-full" src="../assets/images/main-hero.webp" alt="Angel Rivera campaign">
           </div>
       </div>
       

@@ -1,7 +1,6 @@
 // src/router.js
-import { createRouter, createWebHistory } from 'vue-router';
-import Contact from './views/Contact.vue'; 
-import Home from './views/Home.vue'; 
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from './views/Home.vue'
 
 const routes = [
   {
@@ -12,9 +11,9 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
-    component: Contact,
+    component: () => import('./views/Contact.vue'),
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(),

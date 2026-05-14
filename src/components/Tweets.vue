@@ -1,7 +1,9 @@
 <template>
     <div>
     <h3 class="flex flex-col items-center justify-center gap-3 mb-10 text-6xl text-center">
-        <i class="text-6xl text-center transition-colors duration-200 cursor-pointer gradient-icon intro_text ph ph-x-logo hover:text-blue-500"></i>
+        <a href="https://x.com/Angelluisr" rel="noopener noreferrer" target="_blank" aria-label="Angel Rivera on X — social feed (opens in a new tab)" class="inline-flex intro_text">
+            <XLogo gradient size-class="size-16 md:size-20" class="transition-opacity duration-200 hover:opacity-90" />
+        </a>
         <span>The Latest from Angel</span>
     </h3>
     <div class="flex gallery">
@@ -56,12 +58,31 @@
 
 <script setup>
 import { onMounted } from 'vue';
+import XLogo from './XLogo.vue';
 
+const TWITTER_WIDGETS_SRC = 'https://platform.twitter.com/widgets.js'
+
+const loadTwitterWidgets = (onReady) => {
+    if (window.twttr?.widgets) {
+        onReady()
+        return
+    }
+    let script = document.querySelector(`script[src="${TWITTER_WIDGETS_SRC}"]`)
+    if (script) {
+        if (window.twttr?.widgets) onReady()
+        else script.addEventListener('load', onReady, { once: true })
+        return
+    }
+    script = document.createElement('script')
+    script.src = TWITTER_WIDGETS_SRC
+    script.async = true
+    script.charset = 'utf-8'
+    script.addEventListener('load', onReady, { once: true })
+    document.head.appendChild(script)
+}
 
 const loadTweets = () => {
-    if (window.twttr) {
-        window.twttr.widgets.load();
-      }
+    window.twttr?.widgets?.load()
 }
 
 const prallaxGallery = () => {
@@ -90,22 +111,14 @@ const prallaxGallery = () => {
 }
 
 onMounted(() => {
-    setTimeout(() => {
-      prallaxGallery();
-      loadTweets();
-    }, 2000);
+    loadTwitterWidgets(() => {
+        loadTweets()
+        requestAnimationFrame(() => prallaxGallery())
+    })
 })
 </script>
 
 <style scoped>
- .gradient-icon {
-        background: linear-gradient(to right, red, white, blue); /* Customize your gradient colors here */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: background 0.2s ease;
-    }
-
-
 .gallery {
   height: 175vh;
   background-attachment: fixed;

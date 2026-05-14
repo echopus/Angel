@@ -37,37 +37,40 @@ import Signature from './Signature.vue';
 
 const animate = () => {
     const splitTypes = document.querySelectorAll('.reveal-type')
+    requestAnimationFrame(() => {
+        splitTypes.forEach((char) => {
+            const bg = char.dataset.bgColor
+            const fg = char.dataset.fgColor
+            const text = new SplitType(char, { types: 'chars' })
 
-splitTypes.forEach((char,i) => {
-
-    const bg = char.dataset.bgColor
-    const fg = char.dataset.fgColor
-
-    const text = new SplitType(char, { types: 'chars'})
-
-    gsap.fromTo(text.chars, 
-        {
-            color: bg,
-        },
-        {
-            color: fg,
-            duration: 1.5,
-            stagger: 0.075,
-            scrollTrigger: {
-                trigger: char,
-                start: 'top 60%',
-                end: 'top -110%',
-                scrub: true,
-                markers: false,
-                toggleActions: 'play play reverse reverse'
-            }
+            gsap.fromTo(
+                text.chars,
+                { color: bg },
+                {
+                    color: fg,
+                    duration: 1.5,
+                    stagger: 0.075,
+                    scrollTrigger: {
+                        trigger: char,
+                        start: 'top 60%',
+                        end: 'top -110%',
+                        scrub: true,
+                        markers: false,
+                        toggleActions: 'play play reverse reverse',
+                    },
+                },
+            )
+        })
     })
-})
 }
-onMounted(() => {
+
+onMounted(async () => {
+    if (document.fonts?.ready) {
+        await document.fonts.ready.catch(() => {})
+    }
     setTimeout(() => {
-    animate()
-}, 1000);
+        animate()
+    }, 1000)
 })
 
 </script>

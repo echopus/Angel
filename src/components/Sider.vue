@@ -1,10 +1,10 @@
 <template>
     <div class="h-screen bg-white">
         <div class="h-screen z-[999] bg-white fixed w-[5%] left-0 flex justify-center pt-40 gap-14 items-center flex-col border-r border-black/25">
-            <span class="flex items-center gap-2 mb-32 text-black -rotate-90 intro_text w-max"><span class="inline-block bg-blue-500 rounded-full size-2"> </span> Angel Rivera <span class="text-gray">For Congress</span></span>
-            <div @click="scrollToSection"  class="p-3 transition-all duration-200 bg-blue-500 rounded-full cursor-pointer intro_text hover:bg-dark-v2 size-10 xl:size-12">
+            <span class="flex items-center gap-2 mb-32 text-black -rotate-90 intro_text w-max"><span class="inline-block bg-blue-500 rounded-full size-2"> </span> Angel Rivera <span class="text-gray-600">For Congress</span></span>
+            <button type="button" @click="scrollToSection" aria-label="Scroll to contribute section or back to top" class="p-3 transition-all duration-200 bg-blue-500 rounded-full cursor-pointer intro_text hover:bg-dark-v2 size-10 xl:size-12">
                 <Arrow :class="`${passed == true ? '-rotate-90' : 'rotate-90'} transition-all duration-300 cursor-pointer size-full`" />
-            </div>
+            </button>
         </div>
     </div>
 </template>
@@ -12,20 +12,7 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import Arrow from './Arrow.vue';
-
-const lenis = new Lenis();
-
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
-lenis.on("scroll", ScrollTrigger.update);
-gsap.ticker.add((time) => {
-  lenis.raf(time * 1000);
-});
-gsap.ticker.lagSmoothing(0);
-
+import { lenis } from '@/smooth-scroll.js';
 
 const passed = ref(false);
 
@@ -61,8 +48,6 @@ const handleScroll = () => {
         passed.value = false;
     }
 };
-
-
 
 
 
