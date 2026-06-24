@@ -12,11 +12,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Economy</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Economic Growth</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">Central Florida’s residents deserve affordable living costs and a thriving economy. I will advocate for policies that promote responsible fiscal management, reduce unnecessary regulations, and encourage small business growth. By fostering a business-friendly environment, we can attract new industries, create jobs, and ensure that hardworking families can enjoy a higher quality of life without undue financial burdens.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Lower costs, smarter spending, and fewer regulations so small businesses can grow and families can get ahead.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Job Creation</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">In an ever-evolving economy, it’s essential to prepare our district for the jobs of the future. I will support initiatives that encourage the development of high-tech industries and innovation hubs. By investing in workforce training programs and STEM education, we can equip our residents with the skills they need to succeed in emerging fields, ensuring long-term job security and prosperity.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Invest in workforce training and new industries so Floridians are ready for the jobs of tomorrow.</p>
                 </details>
             </div>
         </div>
@@ -31,11 +31,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Public Safety</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Law Enforcement</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">Our communities must be safe places to live, work, and raise families. I am committed to supporting law enforcement agencies, ensuring they have the resources needed to effectively combat crime and maintain public safety. By fostering collaboration between law enforcement and the community, we can build trust, improve communication, and create a secure environment for everyone.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Support law enforcement with the tools they need and build safer neighborhoods for every family.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Veterans Affairs</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">Honoring our veterans is a top priority. I will work tirelessly to ensure that our veterans receive the support they deserve, including timely access to quality healthcare, educational opportunities, and employment assistance. I will advocate for streamlined processes and increased funding for veterans’ services to guarantee that those who have served our country are well taken care of.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Fight for timely care, education, and opportunity for the men and women who served our country.</p>
                 </details>
             </div>
         </div>
@@ -50,11 +50,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Education Reform</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">School Choice</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">Our children’s education is paramount to their future success and our nation’s prosperity. I will push for educational reform that empowers parents with choices, supports effective teachers, and prioritizes students’ needs. By promoting school choice, reducing bureaucratic obstacles, and investing in innovative teaching methods, we can create a strong foundation for our students’ success.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Empower parents, support great teachers, and put students first with real school choice.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Health Care</summary>
-                    <p class="py-2 pb-4 md:px-12 text-gray">Access to quality healthcare is a fundamental right. I will work towards practical solutions that improve healthcare affordability without sacrificing quality. By fostering competition among healthcare providers, increasing transparency in pricing, and exploring options for telehealth services, we can ensure that all residents have access to the care they need without breaking the bank.</p>
+                    <p class="py-2 pb-4 md:px-12 text-gray">Make healthcare more affordable through competition, transparency, and practical reform.</p>
                 </details>
             </div>
         </div>
@@ -71,11 +71,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Economy</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Economic Growth</summary>
-                    <p class="py-2 pb-4 text-gray">Central Florida’s residents deserve affordable living costs and a thriving economy. I will advocate for policies that promote responsible fiscal management, reduce unnecessary regulations, and encourage small business growth. By fostering a business-friendly environment, we can attract new industries, create jobs, and ensure that hardworking families can enjoy a higher quality of life without undue financial burdens.</p>
+                    <p class="py-2 pb-4 text-gray">Lower costs, smarter spending, and fewer regulations so small businesses can grow and families can get ahead.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Job Creation</summary>
-                    <p class="py-2 pb-4 text-gray">In an ever-evolving economy, it’s essential to prepare our district for the jobs of the future. I will support initiatives that encourage the development of high-tech industries and innovation hubs. By investing in workforce training programs and STEM education, we can equip our residents with the skills they need to succeed in emerging fields, ensuring long-term job security and prosperity.</p>
+                    <p class="py-2 pb-4 text-gray">Invest in workforce training and new industries so Floridians are ready for the jobs of tomorrow.</p>
                 </details>
             </div>
         </div>
@@ -91,11 +91,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Public Safety</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Law Enforcement</summary>
-                    <p class="py-2 pb-4 text-gray">Our communities must be safe places to live, work, and raise families. I am committed to supporting law enforcement agencies, ensuring they have the resources needed to effectively combat crime and maintain public safety. By fostering collaboration between law enforcement and the community, we can build trust, improve communication, and create a secure environment for everyone.</p>
+                    <p class="py-2 pb-4 text-gray">Support law enforcement with the tools they need and build safer neighborhoods for every family.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Veterans Affairs</summary>
-                    <p class="py-2 pb-4 text-gray">Honoring our veterans is a top priority. I will work tirelessly to ensure that our veterans receive the support they deserve, including timely access to quality healthcare, educational opportunities, and employment assistance. I will advocate for streamlined processes and increased funding for veterans’ services to guarantee that those who have served our country are well taken care of.</p>
+                    <p class="py-2 pb-4 text-gray">Fight for timely care, education, and opportunity for the men and women who served our country.</p>
                 </details>
             </div>
         </div>
@@ -111,11 +111,11 @@
                 <h3 class="mt-6 mb-8 text-4xl text-dark-v2">Education Reform</h3>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">School Choice</summary>
-                    <p class="py-2 pb-4 text-gray">Our children’s education is paramount to their future success and our nation’s prosperity. I will push for educational reform that empowers parents with choices, supports effective teachers, and prioritizes students’ needs. By promoting school choice, reducing bureaucratic obstacles, and investing in innovative teaching methods, we can create a strong foundation for our students’ success.</p>
+                    <p class="py-2 pb-4 text-gray">Empower parents, support great teachers, and put students first with real school choice.</p>
                 </details>
                 <details class="flex flex-col">
                     <summary class="text-dark-v2">Health Care</summary>
-                    <p class="py-2 pb-4 text-gray">Access to quality healthcare is a fundamental right. I will work towards practical solutions that improve healthcare affordability without sacrificing quality. By fostering competition among healthcare providers, increasing transparency in pricing, and exploring options for telehealth services, we can ensure that all residents have access to the care they need without breaking the bank.</p>
+                    <p class="py-2 pb-4 text-gray">Make healthcare more affordable through competition, transparency, and practical reform.</p>
                 </details>
             </div>
         </div>  

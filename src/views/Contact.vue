@@ -5,7 +5,7 @@
       <div class="w-full p-6 text-white bg-blue-600 rounded-lg shadow-md lg:w-1/2">
         <h2 class="mb-4 text-5xl font-bold">Join the Fight</h2>
         <p class="text-lg">
-          Angel Rivera for Congress. Join the movement to bring positive change to our community. Enter your details below to stay informed and show your support for the campaign.
+          Felix Rivera for Congress. Sign up to stay informed and show your support for the campaign.
         </p>
       </div>
 
@@ -74,7 +74,7 @@ import { ref } from 'vue';
 import { useToast } from "vue-toastification";
 
 export default {
-  name: 'AngelForm',
+  name: 'FelixForm',
   setup() {
     const form = ref({
       name: '',

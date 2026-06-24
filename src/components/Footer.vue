@@ -2,9 +2,9 @@
     <div class="w-full h-max">
         <div class="marquee h-max">
       <span>
-        Angel Rivera For Congrees Angel Rivera For
-        Congrees Angel Rivera For Congrees Angel Rivera
-        For Congrees
+        Felix Rivera For Congress Felix Rivera For
+        Congress Felix Rivera For Congress Felix Rivera
+        For Congress
       </span>
     </div>
     </div>

@@ -2,7 +2,7 @@
     <div class="cards_section">
         <div class="flex flex-col gap-8 md:flex-row">
             <span class="text-4xl md:w-1/2 md:text-5xl text-dark-v2 title">Leadership . <span class="text-gray">Experience .</span><br> Values.</span>
-            <p class="text-xl md:w-1/2 text-dark-v2 title">Proven leadership, extensive experience, and unwavering values. Committed to integrity, justice, and positive change.</p>
+            <p class="text-xl md:w-1/2 text-dark-v2 title">Proven leadership and values. Committed to freedom, security, and results for Florida.</p>
         </div>
 
         <!-- cards  -->

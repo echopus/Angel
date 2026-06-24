@@ -10,26 +10,23 @@
       
       <div class="flex flex-col gap-14 min-[1200px]:flex-row">
             <div class="min-[1200px]:w-[60%]">
-            <h3 class="text-[2.25rem] md:text-[3rem] min-[1200px]:text-[4rem] mb-12 leading-none">
-                The official Campaign <br> website for <span class="text-gray">Angel Rivera</span> <span>Candidate For Congress</span>
+            <h3 class="text-[2.25rem] md:text-[3rem] min-[1200px]:text-[4rem] mb-8 leading-none">
+                <span class="text-gray">Felix Rivera</span> for Congress
             </h3>
-            <p class="flex items-start gap-1 mb-2 text-3xl title_p"><span>FLORIDA FIRST POLICY</span></p>
-            <p class="flex items-start gap-1 py-2 title_p"><Dot/><span>Economy & Jobs: Focus on lowering taxes, reducing regulation, and promoting policies to create more jobs, particularly in industries like tourism and construction.</span></p>
-            <p class="flex items-start gap-1 title_p"><Dot/><span> Border Security & Immigration: Emphasizing the need for strong borders and stricter immigration policies, which he connects to national security and protecting American jobs.</span></p>
-            <p class="flex items-start gap-1 pt-2 title_p"><Dot/><span>Law & Order: Promoting policies aimed at reducing crime, supporting law enforcement, and ensuring public safety, especially in urban and growing suburban areas.</span></p>
-            <p class="flex items-start gap-1 pt-2 title_p"><Dot/><span>America First: Advocating for trade policies that prioritize American industries and workers, reducing reliance on foreign imports to strengthen the national economy.</span></p>
-            <p class="flex items-start gap-1 pt-2 title_p"><Dot/><span>Hurricane Recovery & Infrastructure: Pushing for faster federal response to hurricanes and investing in resilient infrastructure to protect homes and businesses from future disasters.</span></p>
+            <p class="flex items-start gap-1 mb-4 text-2xl title_p"><span>FLORIDA FIRST</span></p>
+            <p class="flex items-start gap-1 py-1 title_p"><Dot/><span>Economy & Jobs — Lower taxes, less red tape, more Florida jobs.</span></p>
+            <p class="flex items-start gap-1 title_p"><Dot/><span>Border Security — Secure borders and enforce the law.</span></p>
+            <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>Law & Order — Back police and keep communities safe.</span></p>
+            <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>America First — Put American workers and industries first.</span></p>
+            <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>Infrastructure — Faster hurricane recovery and stronger roads.</span></p>
           </div>
           <div class="min-[1200px]:w-[40%]  h-[450px] md:h-[650px] min-[1200px]:h-[450px] vid relative z-[1] rounded-xl">
-            <img fetchpriority="high" loading="eager" width="584" height="584" decoding="async" class="object-cover rounded-xl size-full" src="../assets/images/main-hero.webp" alt="Angel Rivera campaign">
+            <img fetchpriority="high" loading="eager" width="584" height="584" decoding="async" class="object-cover object-[center_20%] rounded-xl size-full" src="../assets/images/felix.webp" alt="Felix Rivera campaign">
           </div>
       </div>
       
       <div class="flex flex-col justify-between gap-10 mb-6 lg:flex-row mt-14 lg:mt-20">
-        <p class="md:w-[50%] title_p">Your contribution can make a significant impact on our campaign's success. Join us today by making a donation and be a part of shaping a brighter future for our community.</p>
-        <div class="md:w-[40%]">
-          <h3 class="text-3xl md:text-5xl">ALL FOR FLORIDA ALL FOR FREEDOM</h3>
-        </div>
+        <h3 class="text-3xl md:text-5xl">ALL FOR FLORIDA ALL FOR FREEDOM</h3>
       </div>
       
     </div>
@@ -43,7 +40,7 @@
     <div class="px-8 py-12 mb-12 donate_cards lg:rounded-3xl bg-dark-v2" id="contribute">
       <div class="flex flex-col justify-between gap-4 md:flex-row">
         <h3 class="text-4xl md:w-1/2 text-gray animated-card">CONTRIBUTE <Dot class="relative top-[-1.4rem] left-1 inline" /></h3>
-        <p class="text-xl md:w-1/2 animated-card">Let's send Washington a message <br> that Florida will remain a Free State!</p>
+        <p class="text-xl md:w-1/2 animated-card">Send Washington a clear message: <br> Florida stays free.</p>
       </div>
       <div class="mt-16 ">
           <DonateCards  />
@@ -68,7 +65,7 @@
     
     <div class="container grid w-full place-content-center py-14 md:py-16 lg:py-20">
         <div class=" border-[1.5px] border-dark-v2 text-dark-v2 p-6">
-          <h3 class="text-center">PAID FOR BY ANGEL RIVERA FOR CONGRESS</h3>
+          <h3 class="text-center">PAID FOR BY FELIX RIVERA FOR CONGRESS</h3>
         </div>
     </div>
         </div>

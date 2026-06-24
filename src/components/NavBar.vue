@@ -2,12 +2,12 @@
 <template>
     <div class=" h-[80px] w-full fixed top-0 left-0 right-0 z-[1000] bg-white border-b border-black/25">
         <nav class="flex items-center justify-between w-full h-full px-14">
-        <RouterLink to="/" class="h-full w-max intro_text" aria-label="Angel Rivera for Congress home">
-            <img fetchpriority="high" loading="eager" width="99" height="99" class="object-contain size-full" src="../assets/images/logo-nav.webp" alt="Angel Rivera for Congress">
+        <RouterLink to="/" class="h-full w-max intro_text" aria-label="Felix Rivera for Congress home">
+            <img fetchpriority="high" loading="eager" width="99" height="99" class="object-contain size-full" src="../assets/images/logo-nav.webp" alt="Felix Rivera for Congress">
         </RouterLink>
         <div class="flex items-center h-full gap-6">
             <MainButton class="hidden md:block intro_text" :text="'Donate'" :colors="{main: 'text-white', sec: 'bg-dark-v2'}" :link="'https://secure.winred.com/angel-rivera-for-congress/donate-today'" />
-            <a href="https://x.com/Angelluisr" rel="noopener noreferrer" target="_blank" aria-label="Angel Rivera on X (opens in a new tab)" class="h-full border-l-[1.05px] grid place-content-center pl-14 border-black/25 text-dark-v2 hover:text-blue-500 transition-colors duration-200">
+            <a href="https://x.com/Angelluisr" rel="noopener noreferrer" target="_blank" aria-label="Felix Rivera on X (opens in a new tab)" class="h-full border-l-[1.05px] grid place-content-center pl-14 border-black/25 text-dark-v2 hover:text-blue-500 transition-colors duration-200">
                 <XLogo size-class="size-9" class="transition-colors duration-200" />
             </a>
         </div>
