@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="98 6 202 78" role="img" aria-label="Felix Rivera for Congress">
+  <text x="118" y="23" font-size="13" fill="#c41e3a">★</text>
+  <text x="200" y="23" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="700" font-size="19" fill="#0c2340" letter-spacing="0.18em">FELIX</text>
+  <text x="282" y="23" font-size="13" fill="#c41e3a">★</text>
+
+  <text x="200" y="61" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="900" font-size="46" fill="#0c2340" letter-spacing="0.04em">RIVERA</text>
+
+  <g transform="translate(106, 34) scale(0.42)">
+    <path fill="#c41e3a" d="M8,32 L28,10 L38,16 L46,6 L60,12 L64,28 L72,32 L80,48 L72,56 L60,44 L52,58 L44,50 L34,54 L24,48 L14,42 Z"/>
+  </g>
+
+  <text x="200" y="81" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="500" font-size="11" fill="#1a4a6e" letter-spacing="0.38em">FOR CONGRESS</text>
+</svg>
