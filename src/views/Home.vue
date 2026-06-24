@@ -51,7 +51,7 @@
       <Cards />
     </div>
     
-    <div class="hidden px-8 py-12 mb-12 bg-dark-v2 rounded-3xl lg:block">
+    <div class="px-8 py-12 mb-12 bg-dark-v2 rounded-3xl">
       <Tweets />
     </div>
     
