@@ -39,11 +39,18 @@ const items = ref([
     },
 ])
 
-const enter = (id) => {
+const getTargets = (id) => {
     const arrowContainer = document.getElementById(id);
-    const rArrow = arrowContainer.querySelector(".right");
-    const lArrow = arrowContainer.querySelector(".left");
-    const text = arrowContainer.querySelector("span");
+    return [
+        arrowContainer.querySelector(".right"),
+        arrowContainer.querySelector(".left"),
+        arrowContainer.querySelector("span"),
+    ];
+};
+
+const enter = (id) => {
+    const [rArrow, lArrow, text] = getTargets(id);
+    gsap.killTweensOf([rArrow, lArrow, text]);
 
     gsap.to(rArrow, {
         right: "-100%",
@@ -62,11 +69,8 @@ const enter = (id) => {
 }
 
 const out = (id) => {
-    const arrowContainer = document.getElementById(id);
-    const rArrow = arrowContainer.querySelector(".right");
-    const lArrow = arrowContainer.querySelector(".left");
-    const text = arrowContainer.querySelector("span");
-
+    const [rArrow, lArrow, text] = getTargets(id);
+    gsap.killTweensOf([rArrow, lArrow, text]);
 
     gsap.to(rArrow, {
         right: "-25%",
