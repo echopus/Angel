@@ -29,10 +29,18 @@ const colors = props.colors;
 const link = props.link;
 const arrowContainer = ref(null)
 
+const getTargets = () => {
+    const el = arrowContainer.value;
+    return [
+        el.querySelector(".right"),
+        el.querySelector(".left"),
+        el.querySelector("span"),
+    ];
+};
+
 const enter = () => {
-    const rArrow = arrowContainer.value.querySelector(".right");
-    const lArrow = arrowContainer.value.querySelector(".left");
-    const text = arrowContainer.value.querySelector("span");
+    const [rArrow, lArrow, text] = getTargets();
+    gsap.killTweensOf([rArrow, lArrow, text]);
 
     gsap.to(rArrow, {
         left: "55%",
@@ -51,10 +59,8 @@ const enter = () => {
 }
 
 const out = () => {
-    const rArrow = arrowContainer.value.querySelector(".right");
-    const lArrow = arrowContainer.value.querySelector(".left");
-    const text = arrowContainer.value.querySelector("span");
-
+    const [rArrow, lArrow, text] = getTargets();
+    gsap.killTweensOf([rArrow, lArrow, text]);
 
     gsap.to(rArrow, {
         left: "0%",
