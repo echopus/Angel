@@ -3,7 +3,7 @@
         <div class="lg:flex lg:gap-4 lg:pr-4">
         <Sider class="hidden lg:block w-[5%]" />
         <div  class="w-full lg:w-[95%] mt-[80px]">
-    <div class="relative w-full px-8 pt-12 pb-8 mt-3 lg:ml-2 z-[1] mb-6 overflow-hidden lg:rounded-3xl bg-dark-v2">
+    <div class="relative w-full px-8 pt-12 pb-10 mt-3 lg:ml-2 z-[1] mb-6 overflow-hidden lg:rounded-3xl bg-dark-v2">
       <!-- @mousemove="moveBlob" @mouseleave="outBlob"  -->
       <span class="blur"></span>
       <!-- <span id="blob"></span> -->
@@ -19,14 +19,14 @@
             <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>Law & Order — Back police and keep communities safe.</span></p>
             <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>America First — Put American workers and industries first.</span></p>
             <p class="flex items-start gap-1 pt-1 title_p"><Dot/><span>Infrastructure — Faster hurricane recovery and stronger roads.</span></p>
+            <div class="flex flex-wrap items-center gap-4 mt-14">
+              <MainButton :text="'Donate'" :colors="{main: 'text-white', sec: 'bg-blue-500', text: 'text-white'}" :link="'https://secure.winred.com/angel-rivera-for-congress/donate-today'" />
+              <MainButton :text="'Join the fight'" :colors="{main: 'text-blue-500', sec: 'bg-[#eee]'}" :link="'https://x.com/Angelluisr'" />
+            </div>
           </div>
           <div class="min-[1200px]:w-[40%]  h-[450px] md:h-[650px] min-[1200px]:h-[450px] vid relative z-[1] rounded-xl">
-            <img fetchpriority="high" loading="eager" width="584" height="584" decoding="async" class="object-cover object-[center_20%] rounded-xl size-full" src="../assets/images/felix.webp" alt="Felix Rivera campaign">
+            <img fetchpriority="high" loading="eager" width="584" height="584" decoding="async" class="object-cover object-[center_20%] border-2 border-white/25 rounded-xl size-full" src="../assets/images/felix.webp" alt="Felix Rivera campaign">
           </div>
-      </div>
-      
-      <div class="flex flex-col justify-between gap-10 mb-6 lg:flex-row mt-14 lg:mt-20">
-        <h3 class="text-3xl md:text-5xl">ALL FOR FLORIDA ALL FOR FREEDOM</h3>
       </div>
       
     </div>
@@ -83,6 +83,7 @@ import Cards from "@/components/Cards.vue";
 import About from '@/components/About.vue';
 import Pads from "@/components/Pads.vue";
 import Tweets from '@/components/Tweets.vue';
+import MainButton from '@/components/MainButton.vue';
 
 
 

@@ -2,7 +2,7 @@
     <div class="">
         <a :href="link" ref="arrowContainer" @mouseenter="enter" @mouseleave="out" :class="`relative  overflow-hidden flex items-center px-5 py-[.6rem] arrow  rounded-[.4rem] ${colors.sec}`">
             <arrow :class="`absolute left-[-20%] left size-[1.25rem] ${colors.main}`" />
-            <span class="relative left-[0%] w-max text-white mix-blend-difference">{{ text }}</span>
+            <span :class="`relative left-[0%] w-max ${colors.text ?? 'text-white mix-blend-difference'}`">{{ text }}</span>
             <arrow :class="`relative left-0 right ml-2 size-[1.25rem] ${colors.main}`" />
         </a>
     </div>
